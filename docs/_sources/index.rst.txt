@@ -18,7 +18,7 @@ Index
 変幻蛮怒は変愚蛮怒(Hengband-2.2.1)から派生したローグライクゲームです。
 
 変幻蛮怒は、ベースである Angband や ZAngband そして変愚蛮怒と同様に
-Moria/Angband使用許諾に従って配布されています。
+Moria/Angband使用許諾(/lib/help/jlicense.txt)に従って配布されています。
 
 
 About
@@ -27,17 +27,16 @@ About
 99Fの『オベロン』と100Fの『混沌のサーペント』を討伐することがあなたの目的です。
 
 当バリアントのコンセプトとして変愚蛮怒そのものの面白さをリスペクトしつつ、
-「私だけ」の鉄獄を目指しています。
+個人的な鉄獄を目指しています。
 
 
 Download
 ==================
-`0.0.0.1 <https://>`_
+`初版 <https://github.com/gkuraki/hengenband/releases/download/v2.3.0.1/hengenband2.3.0.1jp.zip>`_
 
-`(ソースファイル)　公式WEB <https://>`_
+`ソースファイル(Github) <https://github.com/gkuraki/hengenband/tree/main/Hengenband>`_
 
-
-使用許諾:このプログラムの実行により何かしらの不都合が起こった場合、
+使用許諾:このプログラムの使用により何かしらの不都合が起こった場合、
 製作者であるgkurakiは責任を負いかねます。
 
 
