@@ -34,7 +34,7 @@ Download
 ==================
 `初版 <https://github.com/gkuraki/hengenband/releases/download/v2.3.0.1/hengenband2.3.0.1jp.zip>`_
 
-`ソースファイル(Github) <https://github.com/gkuraki/hengenband/tree/main/Hengenband>`_
+`リリース情報(Github) <https://github.com/gkuraki/hengenband/releases/tag/v2.3.0.1>`_
 
 使用許諾:このプログラムの使用により何かしらの不都合が起こった場合、
 製作者であるgkurakiは責任を負いかねます。
