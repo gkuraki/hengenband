@@ -32,7 +32,7 @@ About
 
 Download
 ==================
-`初版 <https://github.com/gkuraki/hengenband/releases/download/v2.3.0.1/hengenband2.3.0.1jp.zip>`_
+`0.0.1 <https://github.com/gkuraki/hengenband/releases/download/v2.3.0.1/hengenband2.3.0.1jp.zip>`_
 
 `リリース情報(Github) <https://github.com/gkuraki/hengenband/releases/tag/v2.3.0.1>`_
 
@@ -45,7 +45,7 @@ Link
 `変愚蛮怒　公式WEB <https://hengband.github.io/>`_
 現在は3.x系以降として開発が進められています。
 
-`変愚蛮怒の勝手版 <http://www.miyamasa.net/heng_th_katte.html>`_
+`幻想蛮怒 <http://www.miyamasa.net/heng_th_katte.html>`_
 変愚に東方要素を多数追加したバリアントです。
 
 `短愚蛮怒 <https://tanguband.github.io/tang.html>`_
