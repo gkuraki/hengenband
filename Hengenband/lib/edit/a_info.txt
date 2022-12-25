@@ -4374,3 +4374,65 @@ D:$ frightening mask.
 D:なんとも恐ろしい、不気味で、おどろおどろしく、髪が逆立ち、血も凍り、
 D:ぞっとして鳥肌が立つような仮面。
 D:これは正義のドロボー、ダスターによって用いられたものだ。
+
+N:275:『ブリューナク』
+E:'Brionac'
+I:22:2:4
+W:20:30:80:100000
+P:0:2d6:15:15:0
+F:STR | DEX | HIDE_TYPE | THROW |
+F:BRAND_ELEC | SLAY_EVIL |
+F:RES_ELEC | RES_LITE | RES_DARK | XTRA_SHOTS |
+F:LITE | SEE_INVIS | RES_BLIND | SHOW_MODS | RIDING
+D:ケルト神話に伝わると噂される武器があるらしい。
+
+N:276:悪い魔女の銀の
+E:of Bad Witch
+I:30:3:3
+W:60:20:40:300000
+P:3:1d1:0:0:17
+F:SPEED | DEX | FREE_ACT | LEVITATION | TELEPATHY |
+F:ESP_ANIMAL | ESP_GOOD | ACTIVATE | ESP_NONLIVING
+U:JUDGE
+D:遭難者ドロシーの所有する靴で、
+D:良い魔女が悪い魔女の死体から与えたものだ。
+
+N:277:ソーヤー家の
+E:of Babba
+I:21:8:2
+W:30:30:150:10000
+P:0:3d3:3:15:0
+F:RES_DARK | RES_LITE | VAMPIRIC | SLAY_HUMAN | SLAY_ANIMAL |
+F:STEALTH | SEARCH | WARNING | BLOWS |
+D:「銃は良くない。昔ながらのハンマーが一番さ」
+D:(悪魔のいけにえ)
+
+N:278:J・マイヤーズの化粧
+E:of Judith
+I:34:50:4
+W:65:65:40:0
+P:0:1d1:0:0:0
+F:INSTA_ART | SEE_INVIS | STEALTH | SEARCH |
+F:STR | CON | TELEPATHY | HIDE_TYPE | FREE_ACT | RES_SHARDS
+D:とある少女の遺品の一つ。彼女の弟の手により邪な目的へと用いられている。
+
+N:279:サイレントヒルの
+E:of Silent Hill
+I:23:28:2
+W:30:40:260:150000
+P:0:4d5:15:15:0
+F:SLAY_HUMAN | SLAY_EVIL | STR | CON |
+F:RES_NETHER | RES_CONF | RES_CHAOS | RES_DARK | RES_NEXUS
+D:$In my restless dreams, I see that town.
+D:あいまいな眠りの中で夢見るのはあの町
+D:(サイレントヒル2)
+
+N:280:アマンダの
+E:of Jigsaw
+I:32:3:3
+W:30:20:20:22000
+P:3:1d1:0:0:12
+F:STR | INT | WIS | DEX | CON | SPEED |
+F:HEAVY_CURSE |
+F:AGGRAVATE | DRAIN_EXP | REGEN | TY_CURSE |
+D:死んだように生きる者は、ジグ・ソウの洗礼を受けることになるだろう。

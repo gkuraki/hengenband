@@ -22348,7 +22348,7 @@ F:OPEN_DOOR | BASH_DOOR |
 F:EVIL | RES_NETH | RES_LITE | RES_DARK |
 F:NO_CONF | NO_SLEEP | NO_FEAR | REGENERATE |
 F:DROP_CORPSE |
-S:1_IN_3 | 
+S:1_IN_2 | 
 S:CAUSE_3 | CAUSE_4 | HAND_DOOM | TELE_TO | BRAIN_SMASH |
 S:S_DEMON | S_CYBER | S_UNDEAD | S_HI_UNDEAD |
 S:S_UNIQUE | S_ANGEL | S_KIN | S_SPIDER | S_HOUND |
@@ -22483,7 +22483,7 @@ I:130:20d10:30:100:0
 W:32:4:0:500:0:0
 B:CRUSH:FIRE:2d33
 F:FORCE_SLEEP | FORCE_MAXHP | SELF_LITE_2 |
-F:EMPTY_MIND | AURA_FIRE | EVIL | ANIMAL |
+F:AURA_FIRE | EVIL | ANIMAL |
 F:PASS_WALL | POWERFUL | CAN_FLY |
 F:NO_SLEEP | NO_FEAR |
 S:1_IN_4 | 
@@ -22596,3 +22596,201 @@ F:NONLIVING | POWERFUL |  NEVER_BLOW
 S:1_IN_1 |
 S:BA_FIRE
 D:ネス少年が嘗て遊んでいた玩具の幻影。腕を回して爆弾を投げつける構造になっている。
+
+N:1128:宙からの侵略者『ギーグ』
+E:Giygas, the Past from Outer Space
+G:Q:R
+I:130:121d121:100:100:20
+W:81:3:0:25600:0:0
+B:CRAWL
+B:MOAN
+B:SHOW
+B:WAIL
+F:UNIQUE | CAN_SPEAK | ELDRITCH_HORROR | RES_TELE | NONLIVING |
+F:FORCE_SLEEP | FORCE_MAXHP | PASS_WALL | DEMON | UNDEAD |
+F:SHAPECHANGER | MALE |  HUMAN | EMPTY_MIND |
+F:ONLY_ITEM | DROP_4D2 | DROP_GOOD | DROP_GREAT | DROP_90 | STUPID |
+F:OPEN_DOOR | REGENERATE | NEVER_MOVE |
+F:EVIL | RES_SHAR | RES_DARK | RES_LITE | NO_SLEEP | POWERFUL |
+S:1_IN_2 |
+S:BO_PLAS | BR_FIRE | BA_MANA | BR_COLD | BR_LITE
+D:$"So, isn't this terrifying? I'm terrified too. Giygas cannot think rationally anymore,
+D:$ and he isn't even aware of what he is doing now. His own mind was destroyed by his incredible power. 
+D:$ What an all-mighty idiot! Yep, that's what he is! Heh heh heh heh... and you... you will be...
+D:$ just another meal to him!" (Earthbound)
+D:「こわいだろ！　おれだってこわいよ。ギーグはもうかんがえることすらできないし　
+D:じぶんがなにをしているのかも　もうわからないんだ。　
+D:ギーグはじぶんのちからのあまりのつよさで　じぶんのじんかくさえはかいしてしまったのさ。　
+D:とんでもないちからのおおばかやろうさ！　ギーグは！　　
+D:けっけっけ！　ネス…エサになれよ…ギーグの！」(MOTHER2 ギーグの逆襲)
+
+N:1129:スターマン・センゾ
+E:Starman's Ghost
+G:h:R
+I:130:75d10:20:150:10
+W:68:2:0:48695:0:0
+B:INSULT
+B:INSULT
+F:FORCE_SLEEP | FORCE_MAXHP | SELF_DARK_2 |
+F:ONLY_ITEM | DROP_2D2 | DROP_3D2 | DROP_4D2 | 
+F:INVISIBLE | COLD_BLOOD | 
+F:EVIL | UNDEAD | CAN_FLY | DEMON | NONLIVING |
+F:IM_COLD | IM_POIS | RES_NETH | NO_SLEEP |
+S:1_IN_4 |
+S:BLIND | CONF | SCARE | SLOW | SHRIEK |
+S:CONF | DARKNESS | BA_LITE |
+D:宇宙から来た殺し屋の亡霊だ。
+
+N:1130:クラーケン・バイオ
+E:Bionic Kraken
+G:l:v
+I:130:38d100:30:166:80
+W:72:4:0:25000:0:0
+B:CRUSH:HURT:15d15
+B:CRUSH:HURT:15d15
+B:CRUSH:HURT:15d15
+B:CRUSH:HURT:15d15
+F:FORCE_SLEEP | FORCE_MAXHP | CAN_FLY |
+F:ONLY_ITEM | DROP_3D2 | DROP_GOOD | 
+F:BASH_DOOR | POWERFUL | MOVE_BODY | SMART | RES_WATE | RES_DARK |
+F:EVIL | IM_ELEC | NO_CONF | NO_SLEEP | IM_POIS | IM_FIRE | RIDING
+S:1_IN_4 | 
+S:BA_WATE | BR_FIRE | BR_ELEC | BR_LITE
+D:$An enormously fearsome and powerful bionical inhabitant. It 
+D:$resembles a gargantuan octopus and its evil is almost tangible.
+D:とてつもなく強く恐ろしい深海の生き物を遺伝子改良したものだ。
+D:見ただけでその邪悪さが伝わってくる。
+
+N:1131:デストラック
+E:Death Track
+G:g:s
+I:120:70d12:10:80:12
+W:20:2:0:230:0:0
+B:CRUSH:HURT:1d5
+B:CRUSH:HURT:1d5
+B:CRUSH:HURT:1d5
+B:CRUSH:HURT:1d5
+F:FORCE_SLEEP |
+F:EMPTY_MIND | COLD_BLOOD | BASH_DOOR | IM_FIRE | IM_COLD | IM_ELEC | IM_POIS
+F:NO_FEAR | NO_CONF | NO_SLEEP | NONLIVING | RIDING
+S:1_IN_4 | 
+S:BA_POIS
+D:ラップ現象により暴走した大型トラックで、あなたを天国へと連れて行こうとしている。
+
+N:1132:亜空の瘴気『ヴァニラ・アイス』
+E:Vanila Ice, the Mist of Emptiness
+G:z:v
+I:130:60d100:50:170:10
+W:66:4:0:33333:0:0
+B:PUNCH:TERRIFY:30d1
+B:KICK:HURT:15d15
+B:KICK:HURT:15d15
+B:KICK:HURT:15d15
+F:UNIQUE | MALE | KILL_WALL |
+F:FORCE_SLEEP | FORCE_MAXHP | CAN_SPEAK | CAN_FLY |
+F:ONLY_ITEM | DROP_1D2 | DROP_GOOD | DROP_GREAT |
+F:COLD_BLOOD | OPEN_DOOR | BASH_DOOR | KILL_BODY | KILL_ITEM |
+F:NO_CONF | NO_SLEEP | INVISIBLE | WEIRD_MIND | KILL_WALL |
+F:EVIL | UNDEAD | IM_COLD | IM_POIS | RES_NETH | RES_DARK | HURT_LITE |
+F:COLD_BLOOD | BASH_DOOR | POWERFUL | RAND_25 |
+S:1_IN_4 | 
+S:BLINK | INVULNER
+D:このラクガキを見て　
+D:うしろをふり向いた時　
+D:おまえらは　
+D:死　ぬ
+
+N:1133:ホーキンスのデモゴルゴン
+E:Demogorgon of Hawkins
+G:u:W
+I:120:12d12:100:30:10
+W:22:4:0:300:0:0
+B:CLAW:HURT:3d9
+B:CLAW:HURT:3d9
+F:EVIL | DEMON | FORCE_MAXHP |
+F:OPEN_DOOR | BASH_DOOR | COLD_BLOOD |
+F:RES_NETH | NO_CONF | NO_STUN
+S:1_IN_4 |
+S:TPORT | TELE_AWAY | TELE_LEVEL
+D:アメリカは共産圏との戦いに備え、超能力者を用いた異次元の研究を行っていた。
+D:彼等の犠牲によって、研究者たちは裏側の世界を発見することができたが、
+D:同時にあちら側に潜む住人の侵入を招いた。
+
+N:1134:『影の大王』
+E:The Shadow Lord of Shadowland
+G:e:v
+I:130:35d100:60:100:10
+W:58:3:0:19000:0:0
+B:HIT:UN_BONUS:6d8
+B:HIT:UN_BONUS:6d8
+B:TOUCH:UN_POWER
+B:TOUCH:UN_POWER
+F:UNIQUE | MALE | DROP_CORPSE | DROP_SKELETON | HUMAN
+F:FORCE_MAXHP | SMART | HAS_LITE_2
+F:ONLY_ITEM | DROP_1D2 | DROP_4D2 | DROP_GOOD
+F:INVISIBLE | OPEN_DOOR | BASH_DOOR
+F:EVIL | IM_FIRE | IM_COLD | IM_ELEC | NO_CONF | NO_SLEEP
+S:1_IN_4 | 
+S:TELE_TO | HOLD | CAUSE_3 | TRAPS | ANIM_DEAD | DISPEL | PSY_SPEAR
+S:BO_PLAS | BA_DARK | BA_MANA | BA_FIRE | BA_WATE | BA_NETH
+D:影の王国の大王で、性格は冷酷にして用意周到。
+D:時の冒険王は彼の陰謀を幾度もなく打ち砕いたが、
+D:彼を滅ぼすことは終ぞ叶わなかった。
+
+N:1135:『神竜』
+E:Shinryu
+G:&:w
+I:140:55d100:100:200:10
+W:97:3:0:5000000:0:0
+B:HIT:HURT:10d10
+B:HIT:HURT:10d10
+B:HIT:HURT:10d10
+B:HIT:HURT:10d10
+F:UNIQUE | FORCE_SLEEP | NEVER_MOVE | ONLY_ITEM | DROP_90 | FORCE_MAXHP |
+F:DROP_GOOD | DROP_GREAT |
+F:SMART | EMPTY_MIND | REGENERATE | POWERFUL |
+F:GOOD | DRAGON | IM_ACID | IM_ELEC | IM_FIRE | IM_COLD | IM_POIS |
+F:RES_LITE | RES_NETH | RES_WATE | RES_PLAS | RES_SHAR | RES_SOUN |
+F:RES_CHAO | RES_NEXU | RES_DISE | RES_WALL | RES_INER | RES_TIME | RES_GRAV |
+F:RES_TELE | NO_CONF | NO_STUN | NO_SLEEP | RIDING
+S:1_IN_2 |
+S:BA_MANA | BR_ELEC | CAUSE_4 | HAND_DOOM | BA_WATE | BR_POIS |
+S:BR_TIME | BR_COLD | BR_DISI | BR_NUKE | INVULNER |
+D:空より現われし心を持たぬもの…『オメガ』…　
+D:それを追ってきたもの…『神竜』　
+D:12の武器を持つ勇者達でもかなわない…　
+D:静かに次元の狭間に眠らせておくべし…　
+D:けして語りかけることなかれ
+
+N:1136:子供ゾンビ
+E:child zombie
+G:z:G
+I:110:12d8:20:24:20
+W:25:5:0:34:0:0
+B:BITE:HURT:1d4
+B:BITE:HURT:1d4
+F:FRIENDS | EMPTY_MIND | DROP_CORPSE |
+F:DROP_60 | DROP_90 | COLD_BLOOD |
+F:BASH_DOOR | ELDRITCH_HORROR |
+F:UNDEAD | IM_POIS | RES_NETH | NONLIVING | IM_COLD 
+F:NO_CONF | NO_SLEEP | NO_FEAR
+D:親にとってこの子供が唯一の存在だった...かどうかはさて置き、
+D:目が食事を求めて忙しなく動いているのを除けば、外見は生前と大差ありません。
+D:(Cataclysm: Dark Days Ahead)
+
+N:1137:時空犯罪者『東方見文録』
+E:Toho Kenbunroku, the Time Paradox
+G:p:B
+I:120:10d100:20:90:40
+W:34:3:0:1200:0:0
+B:HIT:HURT:5d5
+B:HIT:HURT:5d5
+B:HIT:HURT:5d5
+B:HIT:HURT:5d5
+F:UNIQUE | MALE | CAN_SPEAK | HAS_LITE_1 | HUMAN |
+F:FORCE_MAXHP | DROP_SKELETON | DROP_CORPSE
+F:ONLY_ITEM | DROP_2D2 | DROP_GOOD | 
+F:TAKE_ITEM | OPEN_DOOR | BASH_DOOR | 
+F:EVIL |
+S:1_IN_6
+S:TPORT | BLINK | BR_NEXU
