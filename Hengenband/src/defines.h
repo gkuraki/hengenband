@@ -52,7 +52,7 @@
 
 #define FAKE_VER_MAJOR 12 /*!< ゲームのバージョン番号定義(メジャー番号 + 10) */
 #define FAKE_VER_MINOR 3 /*!< ゲームのバージョン番号定義(マイナー番号) */
-#define FAKE_VER_PATCH 0 /*!< ゲームのバージョン番号定義(パッチ番号) */
+#define FAKE_VER_PATCH 1 /*!< ゲームのバージョン番号定義(パッチ番号) */
 #define FAKE_VER_EXTRA 1 /*!< ゲームのバージョン番号定義(エクストラ番号) */
 
 
@@ -1302,6 +1302,7 @@
 #define ART_EARENDIL            186
 #define ART_PERSEUS             197
 #define ART_TORINCC             273
+#define ART_JUDITH              277
 
 /* Helms and Crowns */
 #define ART_INDRA               33
@@ -1317,6 +1318,7 @@
 #define ART_NUMENOR             132
 #define ART_STONEMASK           146
 #define ART_KOWAIMASK           274
+#define ART_KOWAIMASK           279
 
 /* Cloaks */
 #define ART_JACK                43
@@ -1351,6 +1353,7 @@
 #define ART_GLASS               165
 #define ART_GETA                210
 #define ART_WORM                258
+#define ART_BADW                275
 
 /* Digging */
 #define ART_NAIN                211
@@ -1420,6 +1423,7 @@
 #define ART_ROBINTON            251
 #define ART_ICINGDEATH          259
 #define ART_TWINCLE             260
+#define ART_SILENTHIL           278
 
 /* Polearms */
 #define ART_THEODEN             93
@@ -1483,6 +1487,7 @@
 #define ART_JIZO                213
 #define ART_FUNDIN              214
 #define ART_AESCULAPIUS         225
+#define ART_BABBA               276
 
 /* Bows */
 #define ART_BELTHRONDING        124
